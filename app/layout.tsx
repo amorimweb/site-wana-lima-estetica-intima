@@ -1,0 +1,1 @@
+import type{Metadata}from'next';import'./globals.css';export const metadata:Metadata={title:'Wana Lima | Estética Íntima Avançada',description:'Saúde feminina, harmonização íntima e glútea com respeito, segurança e naturalidade em Parauapebas.'};export default function Layout({children}:{children:React.ReactNode}){return <html lang="pt-BR"><body>{children}</body></html>}
